@@ -1,11 +1,14 @@
 #!/bin/bash
 
 mkdir ~/src
+~/src git clone https://github.com/MohamedBacarFadhul/fancy_tools.git
 chm1="~/src"
 var1="source $way/.aliases"
 var3="source $way/fancy_function.sh"
 var2=$(<~/.bashrc)
 var4="export PATH=$PATH:~/bin"
+
+
 
 if [ -d ~/src ]; then
         echo "le fichier src existe déjà "
